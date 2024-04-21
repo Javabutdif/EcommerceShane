@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(333deg, rgba(104, 107, 131, 1) 0%, rgba(185, 160, 183, 0.6) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0px;
+    box-sizing: padding-box;
+}
+
+form {
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-left: -60%;
+    height: 60%;
+    width: 28%;
+    padding: 2%;
+    /* border: 2px solid rgb(157, 154, 154); */
+
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	 position: absolute;
+	 background-color: rgb(177, 177, 177); */
+
+
+}
+
+h3 {
+    color: black;
+    text-align: center;
+
+    margin-bottom: 45px;
+    font-size: 300%;
+    margin-top: 5%;
+
+}
+
+h2 {
+    color: #00B88C;
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 300%;
+    margin-top: 5%;
+
+}
+
+input {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 75%;
+    font-size: 16px;
+    height: 30px;
+    padding: 8px 8px;
+    margin: 10px auto;
+    background: white !important;
+    margin-left: 35px;
+    color: black;
+
+}
+
+#username-error{
+    /* display: block; */
+    margin-left: 35px;
+}
+
+label {
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+button {
+
+    background: rgb(23, 219, 23);
+    padding: 10px 120px;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 19%;
+    margin-top: 20px;
+    border: none;
+
+}
+
+button:hover {
+
+    opacity: .10;
+    background-color: white;
+    color: black;
+}
+
+.error {
+
+    color: red;
+    padding: 5px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(134, 3, 3);
+}
+
+.link {
+    color: black;
+    margin-left: 12%;
+}
+
+a {
+    color: rgb(119, 226, 119);
+    border: none;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .7;
+    color: #D2CD6F;
+    transition: .4s;
+}
+
+img {
+    display: block;
+    width: 47%;
+    position: absolute;
+    top: 55%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}

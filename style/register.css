@@ -1,0 +1,169 @@
+body{
+
+	background-image: url(img/register.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+    background-repeat: no-repeat;
+			background-size: cover;
+}
+
+*{
+	margin: 0px;
+	box-sizing: padding-box;
+}
+
+form{
+	margin-top: 30%;
+	border-radius: 10px;
+	margin-left: -42%;
+	height: 80%;
+	width: 45%;
+	padding: 2%;
+	/* border: 2px solid #00B88C;
+	border-color: #00B88C;
+	 box-shadow: 20px 20px #00B88C;
+	 position: absolute; */
+
+
+}
+
+h2{
+	color:#00B88C;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 100%;
+	margin-top: 1%;
+	
+}
+
+input{
+	display: block;
+	border: 1px solid white;
+	border-radius: 2px;
+	width: 50%;
+	padding: 8px 8px;
+	margin: 10px auto;
+	background: transparent !important;
+	margin-left: 35px;
+	color: white;
+	
+}
+
+label{
+	color: white;
+	font-size: 16px;
+	padding: 10px;
+}
+
+button{
+	background: #55a1ff;
+	padding: 10px 70px;
+	color: white;
+	border-radius: 30px;
+	margin-left: 17%;
+	border: none;
+}
+
+button:hover{
+
+	opacity: .10;
+}
+
+.error {
+	
+	color: red;
+	padding: 5px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+	
+}
+.error, #emailErrorMessage, #passwordStrengthMessage, #confirmMessage {
+	font-size: 13px; 
+	margin-top: -10px; 
+	margin-bottom: 10px;
+	margin-left: 40px;
+}
+
+h1{
+	text-align: center;
+	color: rgb(134, 3, 3);
+}
+.link{
+    color:white;
+    margin-left: 7%;
+}
+a{
+	color:#55a1ff;
+	border: none;
+	text-decoration: none;
+    
+}
+
+a:hover{
+	opacity: .7;
+	 color: #D2CD6F;
+     transition: .4s;
+}
+      
+img{
+	display: block;
+  width: 47%;
+   position: absolute;
+   top: 55%;
+   left: 72%;
+   transform: translate(-50%,-50%);
+}
+.lg{
+	display: block;
+	width:15%;
+   position: absolute;
+   top: 9%;
+   left: 3%;
+   transform: translate(-50%,-50%);
+}
+p{
+    margin: center;
+    color: white;
+}
+.border {
+	height: 5px;
+	width: 55%;
+	background-color: transparent; 
+	margin-top: -10px;
+	border-radius: 10px;
+	position: absolute; 
+	left: 30px;
+}
+
+#password-strength-meter {
+height: 100%; 
+width: 0%; 
+background-color: white; 
+border-radius: 10px; 
+position: absolute; 
+left: -3px; 
+transition: width 1s ease; 
+}   
+.strength-weak {
+	width: 10% !important; 
+	background-color: red !important;
+}
+
+.strength-medium {
+	width: 50% !important; 
+	background-color: yellow !important;
+}
+
+.strength-strong {
+	width: 75% !important; 
+	background-color: orange !important;
+}
+
+.strength-very-strong {
+	width: 100% !important; 
+	background-color: green !important;
+}
