@@ -1,5 +1,5 @@
 <?php 
-
+     session_start();
     $con = mysqli_connect("localhost","root","","db_event");
     $sql = "SELECT COUNT(*) AS Users FROM users";
     $result = mysqli_query($con, $sql);
@@ -47,7 +47,9 @@
       <div class="col-md-3">
         <div class="list-group">
           <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
-          <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-users"></i> Users</a>
+           <a href="addadmin.php" class="list-group-item list-group-item-action"><i class="fas fa-tachometer-alt"></i> Add Customer / Vendors</a>
+          <a href="vendors.php" class="list-group-item list-group-item-action"><i class="fas fa-users"></i> Vendors</a>
+            <a href="customer.php" class="list-group-item list-group-item-action"><i class="fas fa-users"></i> Customers</a>
           <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-chart-bar"></i> Analytics</a>
           <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-cog"></i> Settings</a>
         </div>
